@@ -100,6 +100,39 @@ h1 em {
   .ancor-tags a {
     padding: 10px 10px;
   }
+
+  /* Home */
+  .home-heading {
+    padding: 150px 50px;
+  }
+  .home-heading h1 {
+    font-size: 35px;
+  }
+  h1 em {
+    font-size: 50px;
+  }
+  .home-heading button {
+    padding: 8px;
+    margin-top: 8px;
+  }
+  .offer {
+    margin-top: -70px;
+    margin-left: -70px;
+  }
+  .offer img {
+    width: 300px;
+  }
+  .home-image img {
+    width: 300px;
+  }
+  @keyframes move {
+    from {
+      right: 0px;
+    }
+    to {
+      right: 50px;
+    }
+  }
 }
 
 /*                              Idea: tablets screen                        */
@@ -112,6 +145,45 @@ h1 em {
   .ancor-tags a {
     font-size: 2.7vh;
     padding: 5px;
+  }
+
+  /* Home */
+  .home-heading {
+    padding: 150px 20px;
+  }
+  .home-heading h1 {
+    font-size: 25px;
+  }
+  h1 em {
+    font-size: 40px;
+  }
+  .home-heading img {
+    width: 15px;
+    padding: 5px;
+  }
+  .home-heading p {
+    font-size: small;
+  }
+  .home-heading button {
+    padding: 5px;
+  }
+  .offer {
+    margin-top: -70px;
+    margin-left: -70px;
+  }
+  .offer img {
+    width: 300px;
+  }
+  .home-image img {
+    width: 300px;
+  }
+  @keyframes move {
+    from {
+      right: 0px;
+    }
+    to {
+      right: 5%;
+    }
   }
 }
 
@@ -129,5 +201,48 @@ h1 em {
   .ancor-tags a {
     font-size: 1.6vh;
     padding: 5px 5px;
+  }
+
+  /* Home */
+  .home-heading {
+    padding: 60px 20px;
+  }
+  .home-heading h1 {
+    font-size: 3vh;
+  }
+  h1 em {
+    font-size: 4vh;
+  }
+  .home-heading img {
+    width: 10px;
+    padding: 2px;
+    margin: 8px 0;
+    margin-bottom: 0;
+  }
+  .home-heading p {
+    font-size: 1.3vh;
+  }
+  .home-heading button {
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 1.3vh;
+  }
+  .offer {
+    margin-top: -40px;
+  }
+  .offer img {
+    width: 140px;
+  }
+  .home-image img {
+    width: 300px;
+    height: 300px;
+  }
+  @keyframes move {
+    from {
+      right: 0px;
+    }
+    to {
+      right: 5%;
+    }
   }
 }
