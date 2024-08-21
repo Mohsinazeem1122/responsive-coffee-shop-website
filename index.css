@@ -36,3 +36,20 @@ nav {
   text-decoration: none;
   padding: 12px 20px;
 }
+
+/* small screens */
+@media (max-width: 1000px) {
+  #logo img {
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+  }
+  .ancor-tags {
+    padding-right: 50px;
+  }
+  .ancor-tags a {
+    padding: 10px 10px;
+  }
+}
+
+/* tablets screen */
