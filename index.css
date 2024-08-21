@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.395) rgba(255, 255, 255, 0.395),
+    url(./Images/Coffee\ espresso\ template1.jpg)
+  );
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(75, 38, 20);
+}
